@@ -1,237 +1,214 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de Bilal Khafifi Azzaoui - Présentation de mes compétences, projets, et expériences en sciences des données">
-    <title>Portfolio - Bilal</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Bilal Khafifi Azzaoui - Projets et compétences en sciences des données." />
+  <title>Bilal Khafifi – Portfolio Data</title>
+  <link rel="stylesheet" href="css/style1.css" />
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#home">Mon Portfolio - Bilal</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Section Accueil -->
-    <header id="home" class="bg-dark text-white text-center d-flex align-items-center" style="height: 100vh;">
-        <div class="container">
-            <h1 class="display-4">Bienvenue dans mon univers de la science des données</h1>
-            <p class="lead">Je suis Bilal, un passionné de l'analyse et de l'intelligence artificielle.</p>
-            <a href="#about" class="btn btn-primary btn-lg mt-4">Découvrez qui je suis</a>
-        </div>
-    </header>
-
-    <!-- Section À propos -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <h2 class="text-center">À propos</h2>
-            <p class="text-center">Découvrez mon parcours et mes expériences.</p>
-            <div class="row align-items-center">
-                <div class="col-md-4 text-center">
-                    <img src="images/profil.JPG" alt="Photo de profil" class="img-fluid rounded-circle" style="max-width: 300px;">
-                </div>
-                <div class="col-md-8">
-                    <p>Je suis un étudiant passionné en sciences des données, avec une expertise en analyse des données, apprentissage automatique, et intelligence artificielle. J'ai une curiosité insatiable pour tout ce qui concerne les technologies modernes, les solutions basées sur l'IA et leur impact sur le monde réel. Mon objectif est de transformer des données complexes en solutions impactantes tout en poursuivant une quête constante d'innovation.</p>
-                    <a href="cv.pdf" target="_blank" class="btn btn-secondary">Télécharger mon CV</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Projets -->
-    <section id="projects" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Projets</h2>
-            <p class="text-center">Voici quelques réalisations dont je suis fier.</p>
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/pokemon.png" class="card-img-top" alt="Projet 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Projet Pokémon</h5>
-                            <p>
-                                Ce projet explore en profondeur les données Pokémon à travers une analyse statistique et graphique. Les étapes principales incluent :
-                            </p>
-                            <ul>
-                                <li><strong>Description des Données :</strong> Exploration des caractéristiques des 800 Pokémon, avec des statistiques descriptives et une étude des types.</li>
-                                <li><strong>Visualisations :</strong> Création de graphiques pour examiner la distribution des statistiques (HP, attaque, défense, etc.) et des types principaux.</li>
-                                <li><strong>Analyse Avancée :</strong> Étude des relations entre variables (ex. attaque vs défense), comparaison entre Pokémon légendaires et non légendaires, et analyse par génération.</li>
-                                <li><strong>Conclusion :</strong> Mise en lumière des tendances clés dans les caractéristiques des Pokémon.</li>
-                            </ul>
-                            <p>
-                                Ce projet démontre mes compétences en manipulation de données et en visualisation avec R.
-                            </p>
-                            <a href="rapport.pdf" target="_blank" class="btn btn-primary">Voir les résultats</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/pythonprojet.png" class="card-img-top" alt="Projet 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Projet Python</h5>
-                            <p>
-                                Ce projet Python consiste à explorer et analyser l'ensemble de données 
-                                <strong>Statlog German Credit Data</strong>. L'objectif est d'examiner les variables influençant 
-                                la classification des clients en fonction de leur crédit. À travers ce projet, plusieurs étapes clés ont été réalisées :
-                            </p>
-                            <ul>
-                                <li><strong>Chargement des Données :</strong> Utilisation de la bibliothèque <code>ucimlrepo</code> pour accéder aux données.</li>
-                                <li><strong>Analyse Statistique :</strong> Étude des variables qualitatives et quantitatives pour en comprendre les tendances et distributions.</li>
-                                <li><strong>Visualisation :</strong> Création d'histogrammes, matrices de corrélation et diagrammes en barres pour représenter graphiquement les relations entre les variables.</li>
-                                <li><strong>Préparation des Données :</strong> Séparation des variables en catégories qualitatives et quantitatives pour une analyse structurée.</li>
-                            </ul>
-                            <p>
-                                Ce projet met en avant mes compétences en manipulation de données, analyse statistique et 
-                                visualisation à l'aide de bibliothèques telles que <strong>Pandas</strong>, <strong>Matplotlib</strong> 
-                                et <strong>Seaborn</strong>.
-                            </p>    
-                            <a href="Projet_pyhton.html" target="_blank" class="btn btn-primary">Voir les résultats</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/sas.png" class="card-img-top" alt="Projet SAS et Excel">
-                        <div class="card-body">
-                            <h5 class="card-title">Gestion Automatisée des Données avec Excel et SAS</h5>
-                            <p>
-                                Ce projet vise à automatiser le traitement de données issues de fichiers Excel via un programme SAS. 
-                                Les étapes principales incluent :
-                            </p>
-                            <ul>
-                                <li><strong>Entrée des Données :</strong> Importation de fichiers Excel (factures, engagements, etc.).</li>
-                                <li><strong>Traitement Automatisé :</strong> Paramétrage et génération de sorties standardisées.</li>
-                                <li><strong>Sorties Générées :</strong> Production de fichiers Excel organisés dans des dossiers structurés.</li>
-                            </ul>
-                            <p>
-                                Ce projet illustre mes compétences en automatisation et gestion de données complexes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Compétences -->
-    <section id="skills" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Compétences Informatiques</h2>
-            <p class="text-center">Les logiciels et outils que je maîtrise.</p>
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <img src="images/python.png" alt="Python" class="img-fluid" style="max-height: 100px;">
-                    <p>Python : Maîtrise du langage pour l'analyse de données et le machine learning.</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="images/excel.png" alt="Excel" class="img-fluid" style="max-height: 100px;">
-                    <p>Excel : Expertise dans les tableaux de bord et analyses avancées.</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="images/powerbi.png" alt="Power BI" class="img-fluid" style="max-height: 100px;">
-                    <p>Power BI : Création de rapports interactifs et visualisations dynamiques.</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="images/sql.png" alt="SQL" class="img-fluid" style="max-height: 100px;">
-                    <p>SQL : Conception et interrogation de bases de données relationnelles.</p>
-                </div>
-            </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-md-3 text-center">
-                    <img src="images/rstudio.png" alt="R Studio" class="img-fluid" style="max-height: 100px;">
-                    <p>R Studio : Analyse statistique avancée et visualisation de données.</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="images/sas.png" alt="SAS" class="img-fluid" style="max-height: 100px;">
-                    <p>SAS : Gestion et analyse des données à grande échelle.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-<!-- Section Expériences Professionnelles -->
-<section id="experience" class="py-5 bg-light-grey">
-    <div class="container">
-        <h2 class="section-title text-center">Expériences Professionnelles</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-10">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <div class="d-flex align-items-center mb-2">
-                            <!-- Logo du Groupe Rocher -->
-                            <img src="images/LOGO_DU_GROUPE_ROCHER.png"
-                                 alt="Logo Groupe Rocher"
-                                 style="height: 50px; margin-right: 15px;">
-                            <div>
-                                <h5 class="card-title mb-0">Stage – Assistant Market Intelligence H/F/X</h5>
-                                <h6 class="card-subtitle text-muted">Groupe Rocher – Yves Rocher – Issy‑les‑Moulineaux</h6>
-                            </div>
-                        </div>
-                        <p class="card-text"><strong>Avril 2025 – Juillet 2025</strong></p>
-                        <ul>
-                            <li>Analyse de données marché pour soutenir les équipes marketing dans leurs prises de décisions</li>
-                            <li>Veille concurrentielle et étude des tendances du secteur cosmétique</li>
-                            <li>Élaboration de rapports et présentations pour les équipes locales (PowerPoint)</li>
-                            <li>Traitement et structuration de données via Excel (TCD, formules avancées)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <!-- Barre de navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Bilal Khafifi</div>
+      <nav class="nav">
+        <a href="#home">Accueil</a>
+        <a href="#projects">Projets</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-</section>
+  </header>
 
-
-
-    <!-- Section Contact -->
-    <section id="contact" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Contact</h2>
-            <p class="text-center">Entrons en contact !</p>
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Nom</label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Envoyer</button>
-            </form>
+  <!-- Hero -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-tag">Sciences des données · IA · Analyse</p>
+        <h1>Étudiant en sciences des données, passionné par l’analyse et l’intelligence artificielle.</h1>
+        <p class="hero-sub">
+          Je conçois des analyses et des tableaux de bord pour transformer des données brutes en décisions claires.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">Voir mes projets</a>
+          <a href="cv.pdf" target="_blank" class="btn ghost">Télécharger mon CV</a>
         </div>
-    </section>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="images/profil.jpg" alt="Photo de Bilal Khafifi Azzaoui" />
+        </div>
+        <p class="hero-caption">Actuellement en formation en sciences des données, à la recherche d’opportunités en data.</p>
+      </div>
+    </div>
+  </main>
 
-    <!-- Footer -->
-    <footer class="text-center py-3 bg-dark text-white">
-        <p>&copy; 2025 Bilal Khafifi Azzaoui. Tous droits réservés.</p>
-    </footer>
+  <!-- À propos -->
+  <section id="about" class="section">
+    <div class="container section-grid">
+      <div>
+        <h2>À propos</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Je suis un étudiant passionné par les sciences des données, avec un intérêt particulier pour
+          l’analyse statistique, le machine learning et les applications concrètes de l’IA.
+        </p>
+        <p>
+          Mon objectif est de transformer des jeux de données complexes en informations actionnables,
+          en combinant rigueur quantitative, curiosité et sens pédagogique.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Projets -->
+  <section id="projects" class="section">
+    <div class="container section-grid">
+      <div>
+        <h2>Projets sélectionnés</h2>
+      </div>
+      <div class="section-content projects-list">
+
+        <!-- Projet Pokémon (R) -->
+        <article class="project-item">
+          <div class="project-meta">
+            <p class="project-tag">R · Analyse statistique</p>
+            <p class="project-year">2024</p>
+          </div>
+          <h3>Analyse complète du dataset Pokémon</h3>
+          <p class="project-text">
+            Exploration d’un ensemble de plus de 800 Pokémon : statistiques descriptives,
+            visualisations des caractéristiques (HP, attaque, défense, types) et comparaison
+            entre Pokémon légendaires et non légendaires.
+          </p>
+          <p class="project-text">
+            Ce projet met en avant mes compétences en manipulation de données et visualisation
+            avec R et RStudio.
+          </p>
+          <div class="project-footer">
+            <a href="rapport.pdf" target="_blank" class="project-link">Voir le rapport</a>
+          </div>
+        </article>
+
+        <!-- Projet Python (German Credit) -->
+        <article class="project-item">
+          <div class="project-meta">
+            <p class="project-tag">Python · Statlog German Credit</p>
+            <p class="project-year">2024</p>
+          </div>
+          <h3>Analyse du risque de crédit (German Credit)</h3>
+          <p class="project-text">
+            Étude des variables influençant la classification des clients selon leur profil
+            de crédit : visualisations, analyse exploratoire, préparation des données et
+            mise en place d’indicateurs clés.
+          </p>
+          <p class="project-text">
+            Utilisation de bibliothèques telles que Pandas, Matplotlib et Seaborn pour
+            comprendre les relations entre variables.
+          </p>
+          <div class="project-footer">
+            <a href="Projet_pyhton.html" target="_blank" class="project-link">Voir les résultats</a>
+          </div>
+        </article>
+
+        <!-- Projet SAS / Excel -->
+        <article class="project-item">
+          <div class="project-meta">
+            <p class="project-tag">SAS · Excel · Automatisation</p>
+            <p class="project-year">2024</p>
+          </div>
+          <h3>Automatisation du traitement de données Excel avec SAS</h3>
+          <p class="project-text">
+            Mise en place d’un flux automatisé pour importer, transformer et exporter des
+            fichiers Excel (factures, engagements, etc.) dans un format standardisé.
+          </p>
+          <p class="project-text">
+            Ce projet illustre ma capacité à structurer des processus de traitement de données
+            à grande échelle.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="skills" class="section">
+    <div class="container section-grid">
+      <div>
+        <h2>Compétences</h2>
+      </div>
+      <div class="section-content skills-list">
+
+        <div class="skill-row">
+          <span class="skill-name">Python</span>
+          <span class="skill-detail">Analyse de données, visualisation, machine learning</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">R / RStudio</span>
+          <span class="skill-detail">Statistique avancée, visualisation, reporting</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">SQL</span>
+          <span class="skill-detail">Modélisation, requêtes, extraction de données</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Excel</span>
+          <span class="skill-detail">Tableaux de bord, analyses avancées, automatisation simple</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Power BI</span>
+          <span class="skill-detail">Rapports interactifs et visualisations</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">SAS</span>
+          <span class="skill-detail">Traitement de données à grande échelle</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-last">
+    <div class="container section-grid">
+      <div>
+        <h2>Contact</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Une opportunité, une question ou simplement envie d’échanger autour de la data ?
+          Écrivez‑moi et je vous répondrai rapidement.
+        </p>
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Nom</label>
+            <input id="name" type="text" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2025 Bilal Khafifi Azzaoui</span>
+      <span>Portfolio data · GitHub Pages</span>
+    </div>
+  </footer>
+
 </body>
 </html>
+
